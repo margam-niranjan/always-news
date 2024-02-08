@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  margin: 5px;
+  box-sizing: content-box;
+}
+svg.svg-inline--fa.fa-thumbs-up:hover ,svg.svg-inline--fa.fa-comment:hover,svg.svg-inline--fa.fa-share-from-square:hover   {
+  width: 21px;
+  height: 21px;
+  transition: ease-in-out 0.08s;
+}
